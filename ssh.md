@@ -99,3 +99,19 @@ Cuối cùng, một ứng dụng có thể sử dụng SSH-SFTP hoặc SCP truy�
 
 <a name="thuạttoan"></a>
 ### 5. Một số thuật toán trong SSH
+  `Thuật toán Public-keys (Khóa công khai)` :
+  - RSA: là thuật toán mã hóa bất đối xứng, dùng cho mã hóa và chữ ký.
+  - DSA: dùng chữ ký số.
+  - Thuật toán thỏa thuận Diffie-Hellman: cho phép 2 bên lấy được khóa được chia sẻ trên một kênh mở.
+
+  `Thuật toán Private-keys (Khóa bí mật)` :
+  - AES: là một thuật toán mã hóa khối, chiều dài có thể là 128 đến 256bit.
+  - DES: là một thuật toán mã hóa bảo mật.
+  - 3DES: cải tiến của DES, tăng độ dài của khóa để đạt độ bảo mật cao hơn.
+  - RC4: Kiểu mã hóa nhanh, nhưng kém bảo mật.
+  - Blowfish: là một thuật toán mã hóa miễn phí, có tốc độ mã hóa nhanh hơn DES, nhưng chậm hơn RC4. Độ dài của key từ 32 đến 448bit.
+
+  `Hàm băm (HASH)`:
+  - CRS-32: Băm dữ liệu nhưng không mã hóa. Chỉ sử dụng để kiểm tra tính toàn vẹn của gói tin, tránh thay đổi thông tin trên đường truyền.
+  - MD5: Hàm băm có độ an toàn cao vì được mã hóa dữ liệu, với chiều dài là 128bit.
+  - SHA-1: Một cải tiến của MD5, với chiều dài là 160bit.
