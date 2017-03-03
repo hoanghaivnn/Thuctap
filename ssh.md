@@ -3,6 +3,7 @@
 ## Mục lục
 
  ### [1. Khái niệm](#khainiem)
+ 
  ### [2. Đặc điểm](#dacdiem)
   - [2.1 Tính bí mật](#bimat)
   - [2.2 Tính toàn vẹn](#toanven)
