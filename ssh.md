@@ -2,9 +2,9 @@
 ================================
 ## Mục lục
 
- ### [1. Khái niệm](#khainiem)
- 
- ### [2. Đặc điểm](#dacdiem)
+### [1. Khái niệm](#khainiem)
+
+### [2. Đặc điểm](#dacdiem)
   - [2.1 Tính bí mật](#bimat)
   - [2.2 Tính toàn vẹn](#toanven)
   - [2.3 Tính xác thực](#xacthuc)
@@ -12,14 +12,15 @@
   - [2.5 Chuyển tiếp hoặc tạo đường hầm](#chuyentiep)
 
 
- ### [3. Cấu trúc](#cautruc)
- ### [4. Cơ chế hoạt động](#coche)
- ### [5. Một số thuật toán dùng trong SSH](#thuattoan)
+### [3. Cấu trúc](#cautruc)
+### [4. Cơ chế hoạt động](#coche)
+### [5. Một số thuật toán dùng trong SSH](#thuattoan)
 
 ======================================
 
  <a name="khainiem"></a>
- ### 1.Khái niệm
+### 1.Khái niệm
+
   `SSH (Secure Shell)` là một giao thức mạng dùng để kết nối mạng một cách bảo mật. SSH hoạt động ở các lớp trên trên mô hình TCP/IP. Các công cụ SSH như OpenSSH, Putty,...cung cấp cho người sử dụng cách thức để kết nối mạng được mã hóa để tạo một kênh kết nối riêng tư.Hơn nữa tính năng Tunneling ( hay còn gọi là Port forwarding) của các công cụ này cho phép truyền tải các giao vận theo các giao thức khác nhau.Do vậy khi xây dựng một hệ thống SSH ,chúng ta sẽ thấy như là đang xây dựng một hệ thống VPN đơn giản.
 
   Mỗi khi dữ liệu được đưa vào mạng, SSH sẽ tự động mã hóa nó, và khi dữ liệu đến đích, SSH sẽ tự động giải mã dữ liệu.Kết quả là việc mã hóa và giải mã được thực hiện một cách trong suốt và người dùng hoàn toàn không biết được các dữ liệu truyền đi của mình bị mã hóa và giải mã.
