@@ -47,10 +47,15 @@
 <a name="bantin"></a>
 ### 2.2 Các bản tin tronng DHCP
   -`DHCP DISCOVER` : Là bản tin broadcast của client trong lần đầu tiên tham gia vào mạng, bản tin này yêu cầu cấp phát địa chỉ IP từ DHCP server.
+
   -`DHCP OFFER` : Là bản tin broadcast của DHCP server thông báo rằng đã nhận được bản tin DHCP DISCOVER và có tập cấu hình một địa chỉ IP để cấp cho client. Bản tin DHCP OFFER chứa một địa chỉ IP chưa cấp phát và kèm theo các thông tin cấu hình TCP/IP, cũng như thông tin về subnetmask, default gateway.
+
   -`DHCP REQUEST` : Bản tin broadcast bởi DHCP client sau khi lựa chọn một bản tin DHCP OFFER. Bản tin này chứa địa chỉ IP từ bản tin DHCP OFFER đã chọn, xác nhận thông tin IP đã nhận từ server để các DHCP server khác không gửi bản tin Offer cho client đó nữa.
+
   -`DHCP ACK` : Unicast bởi DHCP server đến DHCP client xác nhận thông tin từ gói DHCP REQUEST. Tất cả thông tin cấu hình IP sẽ được gửi đến cho client và kết thúc quá trình cấp phát IP.
+
   -`DHCP NACK` : Unicast bởi DHCP server tới DHCP clientthông báo từ chối bản tin DHCP REQUEST .
+  
   -`DHCP DECLINE` :  bởi một DHCP client gửi tới một DHCP server, thông báo từ chối IP được cung cấp vì địa chỉ đó đã được sử dụng bởi một máy khác.
 
 <a name="cautruc"></a>
